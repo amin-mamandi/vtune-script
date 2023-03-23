@@ -20,13 +20,11 @@ vtune -collect hotspots -result-dir r001hs -quiet /home/test/sample
    - Action Options:
    ```
    -r, -result-dir=<str> #specify result directory path
-   
    ```
    
    - Control Running Analysis:
    ```
    -command status #print current status
-   
    ```
    
    - Get Report:
