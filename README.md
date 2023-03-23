@@ -1,6 +1,9 @@
 # Intel Vtune Profiler
 
 These are simple scripts which automate profiling a large numbe rof python programs.
+```
+./vtune-auto.sh
+```
 
 ## Here is some useful commands:
 
