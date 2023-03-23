@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# iterate over every *.py files, excluding test.py script
 find . -name '*.py' -not -name 'test.py' -type f -print0 | while IFS= read -r -d '' file; do
   # make sure that we don't have unclosed queues + reseting any cpu masks
   rm /dev/mqueue/*
